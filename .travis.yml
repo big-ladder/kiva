@@ -28,7 +28,7 @@ matrix:
       env: COMPILER=gcc COVERAGE=true
 before_install:
   - if [[ "$COVERAGE" == false ]]; then
-      rvm install 2.3.0;
+      rvm 2.3.0;
       gem install git;
     fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then
