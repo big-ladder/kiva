@@ -18,7 +18,8 @@ public:
     OT_TEMP,
     OT_EFF_TEMP,
     OT_RATE,
-    OT_CONV
+    OT_CONV,
+	OT_RAD
   };
 
   typedef std::map<Surface::SurfaceType, std::vector<OutputType>> OutputMap;
